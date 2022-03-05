@@ -1,0 +1,28 @@
+{
+  "root": "packages/rayu-e2e",
+  "sourceRoot": "packages/rayu-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/rayu-e2e/cypress.json",
+        "devServerTarget": "rayu:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "rayu:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/rayu-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["rayu"]
+}
