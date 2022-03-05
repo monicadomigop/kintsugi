@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "rayu": "packages/rayu",
+    "rayu-e2e": "packages/rayu-e2e"
+  }
 }
