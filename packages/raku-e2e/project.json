@@ -1,12 +1,12 @@
 {
-  "root": "packages/rayu-e2e",
-  "sourceRoot": "packages/rayu-e2e/src",
+  "root": "packages/raku-e2e",
+  "sourceRoot": "packages/raku-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "packages/rayu-e2e/cypress.json",
+        "cypressConfig": "packages/raku-e2e/cypress.json",
         "devServerTarget": "raku:serve"
       },
       "configurations": {
@@ -19,7 +19,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/rayu-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["packages/raku-e2e/**/*.{js,ts}"]
       }
     }
   },

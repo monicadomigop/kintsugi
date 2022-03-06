@@ -6,7 +6,7 @@
   "supportFile": "./src/support/index.ts",
   "pluginsFile": false,
   "video": true,
-  "videosFolder": "../../dist/cypress/packages/rayu-e2e/videos",
-  "screenshotsFolder": "../../dist/cypress/packages/rayu-e2e/screenshots",
+  "videosFolder": "../../dist/cypress/packages/raku-e2e/videos",
+  "screenshotsFolder": "../../dist/cypress/packages/raku-e2e/screenshots",
   "chromeWebSecurity": false
 }
