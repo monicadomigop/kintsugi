@@ -1,6 +1,6 @@
 {
-  "root": "packages/rayu",
-  "sourceRoot": "packages/rayu/src",
+  "root": "packages/raku",
+  "sourceRoot": "packages/raku/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -9,13 +9,13 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/packages/rayu",
-        "index": "packages/rayu/src/index.html",
+        "outputPath": "dist/packages/raku",
+        "index": "packages/raku/src/index.html",
         "baseHref": "/",
-        "main": "packages/rayu/src/main.tsx",
-        "polyfills": "packages/rayu/src/polyfills.ts",
-        "tsConfig": "packages/rayu/tsconfig.app.json",
-        "assets": ["packages/rayu/src/favicon.ico", "packages/rayu/src/assets"],
+        "main": "packages/raku/src/main.tsx",
+        "polyfills": "packages/raku/src/polyfills.ts",
+        "tsConfig": "packages/raku/tsconfig.app.json",
+        "assets": ["packages/raku/src/favicon.ico", "packages/raku/src/assets"],
         "styles": [],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
@@ -24,8 +24,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "packages/rayu/src/environments/environment.ts",
-              "with": "packages/rayu/src/environments/environment.prod.ts"
+              "replace": "packages/raku/src/environments/environment.ts",
+              "with": "packages/raku/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,
@@ -40,12 +40,12 @@
     "serve": {
       "executor": "@nrwl/web:dev-server",
       "options": {
-        "buildTarget": "rayu:build",
+        "buildTarget": "raku:build",
         "hmr": true
       },
       "configurations": {
         "production": {
-          "buildTarget": "rayu:build:production",
+          "buildTarget": "raku:build:production",
           "hmr": false
         }
       }
@@ -54,14 +54,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/rayu/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["packages/raku/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/rayu"],
+      "outputs": ["coverage/packages/raku"],
       "options": {
-        "jestConfig": "packages/rayu/jest.config.js",
+        "jestConfig": "packages/raku/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -71,7 +71,7 @@
         "uiFramework": "@storybook/react",
         "port": 4400,
         "config": {
-          "configFolder": "packages/rayu/.storybook"
+          "configFolder": "packages/raku/.storybook"
         }
       },
       "configurations": {
@@ -87,7 +87,7 @@
         "uiFramework": "@storybook/react",
         "outputPath": "dist/storybook/rayu",
         "config": {
-          "configFolder": "packages/rayu/.storybook"
+          "configFolder": "packages/raku/.storybook"
         }
       },
       "configurations": {

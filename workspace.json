@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "rayu": "packages/rayu",
+    "raku": "packages/raku",
     "rayu-e2e": "packages/rayu-e2e"
   }
 }
