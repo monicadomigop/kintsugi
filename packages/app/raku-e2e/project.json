@@ -1,0 +1,28 @@
+{
+  "root": "packages/app/raku-e2e",
+  "sourceRoot": "packages/app/raku-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/app/raku-e2e/cypress.json",
+        "devServerTarget": "app-raku:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "app-raku:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/app/raku-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["app-raku"]
+}

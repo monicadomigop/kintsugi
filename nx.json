@@ -32,5 +32,5 @@
       }
     }
   },
-  "defaultProject": "raku"
+  "defaultProject": "app-raku"
 }

@@ -1,0 +1,23 @@
+{
+  "root": "packages/lib/kintsugi",
+  "sourceRoot": "packages/lib/kintsugi/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/lib/kintsugi/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/lib/kintsugi"],
+      "options": {
+        "jestConfig": "packages/lib/kintsugi/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
