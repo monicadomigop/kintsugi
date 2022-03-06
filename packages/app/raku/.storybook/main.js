@@ -12,8 +12,11 @@ module.exports = {
   ],
   addons: [
     ...rootMain.addons,
+    '@etchteam/storybook-addon-status',
+    '@hover/storybook-addon-pseudo-states',
     '@nrwl/react/plugins/storybook',
     '@storybook/addon-a11y',
+    'storybook-design-token',
   ],
   webpackFinal: async (config, { configType }) => {
     // apply any global webpack configs that might have been specified in .storybook/main.js
