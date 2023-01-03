@@ -1,8 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "app-raku": "packages/app/raku",
-    "app-raku-e2e": "packages/app/raku-e2e",
-    "lib-kintsugi": "packages/lib/kintsugi"
+    "raku": "packages/app/raku",
+    "raku-e2e": "packages/app/raku-e2e",
+    "kintsugi": "packages/lib/kintsugi"
   }
 }

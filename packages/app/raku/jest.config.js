@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'app-raku',
+  displayName: 'raku',
   preset: '../../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nrwl/react/plugins/jest',
@@ -7,4 +7,4 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory: '../../../coverage/packages/app/raku',
-};
+}

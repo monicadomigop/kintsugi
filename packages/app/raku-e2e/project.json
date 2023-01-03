@@ -7,11 +7,11 @@
       "executor": "@nrwl/cypress:cypress",
       "options": {
         "cypressConfig": "packages/app/raku-e2e/cypress.json",
-        "devServerTarget": "app-raku:serve"
+        "devServerTarget": "raku:serve"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "app-raku:serve:production"
+          "devServerTarget": "raku:serve:production"
         }
       }
     },
@@ -24,5 +24,5 @@
     }
   },
   "tags": [],
-  "implicitDependencies": ["app-raku"]
+  "implicitDependencies": ["raku"]
 }
