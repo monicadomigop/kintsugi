@@ -4,9 +4,15 @@
 
 This project was generated using [Nx](https://nx.dev).
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+## Prerequisites
 
-🔎 **Smart, Fast and Extensible Build System**
+> Node Version: 18
+
+[Node Version Manager (nvm)](https://github.com/nvm-sh/nvm) allows you to quickly install and use different
+versions of node via the command line.
+
+[Git Glossary](https://git-scm.com/docs/gitglossary) - If you are not familiar with Git terms you can check
+a complete glossary.
 
 ## Adding capabilities to your workspace
 
