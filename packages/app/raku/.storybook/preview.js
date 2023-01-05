@@ -12,4 +12,5 @@ export const parameters = {
   designToken: {
     files: tokenFiles,
   },
+  controls: { hideNoControlsWarning: true },
 };
