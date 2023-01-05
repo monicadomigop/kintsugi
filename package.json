@@ -2,13 +2,17 @@
   "name": "kintsugi",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "generate:component": "hygen generator component"
+  },
   "private": true,
   "dependencies": {
     "@hover/storybook-addon-pseudo-states": "^1.1.3",
     "@storybook/addon-a11y": "^6.4.19",
     "@storybook/addons": "^6.4.19",
+    "@storybook/core-server": "6.5.15",
     "core-js": "^3.6.5",
+    "hygen": "^6.2.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
@@ -16,8 +20,7 @@
     "regenerator-runtime": "0.13.7",
     "storybook-design-token": "^1.4.0",
     "styled-components": "5.3.6",
-    "tslib": "^2.0.0",
-    "@storybook/core-server": "6.5.15"
+    "tslib": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.12.13",
