@@ -1,4 +1,4 @@
-export const color = {
+export const token = {
   primary: {
     default: '#00509D',
     active: '#003A71',
