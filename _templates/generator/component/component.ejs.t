@@ -8,7 +8,7 @@ to: packages/lib/kintsugi/src/<%= folder %>/<%= h.changeCase.kebabCase(name) %>/
 import { FC } from 'react';
 
 import { <%= Name %>Props } from './interfaces';
-import { <%= Name %>Wrapper } from './styles';
+import { <%= Name %>Container } from './styles';
 
 export const <%= name %>TestId = '<%= name %>Element';
 
