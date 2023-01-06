@@ -1,4 +1,4 @@
-export const token = {
+export const color = {
   primary: {
     default: '#00509D',
     active: '#003A71',
@@ -17,6 +17,10 @@ export const token = {
   background: {
     primary: '#FFFFFF',
     secondary: '#F6F6F6',
+  },
+  shadow: {
+    primary: '#D5D5D5',
+    secondary: '#545454',
   },
   system: {
     positive: '#05944F',
