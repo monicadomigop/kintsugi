@@ -6,4 +6,3 @@ to: packages/lib/kintsugi/src/<%= folder %>/<%= h.changeCase.pascalCase(name) %>
 -%>
 export * from './<%= FolderName %>'
 export * from './styles';
-
