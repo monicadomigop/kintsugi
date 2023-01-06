@@ -15,7 +15,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/packages/lib/kintsugi"],
       "options": {
-        "jestConfig": "packages/lib/kintsugi/jest.config.js",
+        "jestConfig": "packages/lib/kintsugi/jest.config.ts",
         "passWithNoTests": true
       }
     }
