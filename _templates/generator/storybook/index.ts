@@ -10,9 +10,9 @@ const GROUP = [
 ]
 
 /**
- * @example npm run generate:stories ComponentName structure
- * @example npm run generate:stories --name=ComponentName --folder=structure
- * @example npm run generate:stories
+ * @example npm run generate:story ComponentName structure
+ * @example npm run generate:story --name=ComponentName --folder=structure
+ * @example npm run generate:story
  */
 module.exports = {
   prompt: ({ prompter, args }) => {

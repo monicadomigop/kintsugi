@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "generate:component": "hygen generator component"
+    "generate:component": "hygen generator component",
+    "generate:story": "hygen generator storybook"
   },
   "private": true,
   "dependencies": {

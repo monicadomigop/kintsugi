@@ -5,7 +5,7 @@ to: packages/app/raku/src/app/<%= h.changeCase.kebabCase(folder) %>/<%= h.change
   Name = h.changeCase.pascalCase(name)
 -%>
 import { Meta, Story } from '@storybook/react';
-import { <%= Name %> } from '@raku';
+import { <%= Name %> } from '@kintsugi';
 
 export default {
   component: <%= Name %>,
