@@ -13,7 +13,7 @@
     "noFallthroughCasesInSwitch": true
   },
   "files": [],
-  "include": ["./jest-setup.ts"],
+  "include": [],
   "references": [
     {
       "path": "./tsconfig.lib.json"
