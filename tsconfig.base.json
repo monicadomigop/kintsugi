@@ -19,7 +19,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@kintsugi/lib-kintsugi": ["packages/lib/kintsugi/src/index.ts"]
+      "@kintsugi": ["packages/lib/kintsugi/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
