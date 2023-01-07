@@ -6,7 +6,7 @@ type variants = 'primary' | 'secondary';
 export interface ButtonProps {
   /** Custom testId. */
   'data-testid'?: string;
-  size: sizes;
-  variant: variants;
+  size?: sizes;
+  variant?: variants;
   children?: ReactNode;
 }
