@@ -8,7 +8,7 @@ to: packages/lib/kintsugi/src/<%= folder %>/<%= h.changeCase.kebabCase(name) %>/
 -%>
 import { render, screen } from '@testing-library/react';
 
-import { <%= Name %>, <%= name %>TestId } from '../<%= FolderName %>';
+import { <%= Name %> } from '../<%= FolderName %>';
 
 describe('<%= Name %> component', () => {
   it('should render successfully', () => {

@@ -10,8 +10,6 @@ import { FC } from 'react';
 import { <%= Name %>Props } from './interfaces';
 import { <%= Name %>Container } from './styles';
 
-export const <%= name %>TestId = '<%= name %>Element';
-
 export const <%= Name %>: FC<<%= Name %>Props> = ({
   'data-testid': dataTestId = <%= name %>TestId,
 }): JSX.Element => {
