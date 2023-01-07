@@ -11,7 +11,7 @@ import { <%= Name %>Props } from './interfaces';
 import { <%= Name %>Container } from './styles';
 
 export const <%= Name %>: FC<<%= Name %>Props> = ({
-  'data-testid': dataTestId = <%= name %>TestId,
+  'data-testid': dataTestId = '<%= name %>TestId',
 }): JSX.Element => {
   return (
     <<%= Name %>Container

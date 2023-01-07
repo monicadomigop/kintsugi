@@ -13,7 +13,7 @@ import { <%= Name %> } from '../<%= FolderName %>';
 describe('<%= Name %> component', () => {
   it('should render successfully', () => {
     render(<<%= Name %> />);
-    const <%= name %>Element = screen.getByTestId(<%= name %>TestId);
+    const <%= name %>Element = screen.getByTestId('<%= name %>TestId');
     expect(<%= name %>Element).toBeInTheDocument();
   });
 });
