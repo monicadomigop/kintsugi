@@ -1,3 +1,4 @@
-export * from './color'
-export * from './radius'
-export * from './typography'
+export * from './color';
+export * from './breakpoints';
+export * from './radius';
+export * from './typography';
