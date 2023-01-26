@@ -1,41 +1,43 @@
 interface headlineProps {
-  xxs: number
-  s: number
-  m: number
-  l: number
-  xl: number
-  xxl: number
+  xxs: number;
+  s: number;
+  m: number;
+  l: number;
+  xl: number;
+  xxl: number;
 }
 interface bodyProps {
-  xs: number
-  s: number
-  m: number
-  l: number
+  xs: number;
+  s: number;
+  m: number;
+  l: number;
 }
 interface fontProps {
-  body: bodyProps
-  headline: headlineProps
+  body: bodyProps;
+  headline: headlineProps;
 }
 interface weightProps {
-  light: number
-  regular: number
-  medium: number
-  bold: number
+  light: number;
+  regular: number;
+  medium: number;
+  bold: number;
 }
 interface typeProps {
-  primary: string
+  primary: string;
 }
 interface typographyProps {
-  type: typeProps
-  weight: weightProps
-  size: fontProps
-  lh: fontProps
+  root: number;
+  type: typeProps;
+  weight: weightProps;
+  size: fontProps;
+  lh: fontProps;
 }
 
 const fallback = {
   sansSerif: 'sans-serif',
-}
+};
 export const typography: typographyProps = {
+  root: 16,
   type: {
     primary: 'Fira Code,' + fallback.sansSerif,
   },
@@ -77,4 +79,4 @@ export const typography: typographyProps = {
       xxl: 52,
     },
   },
-}
+};
